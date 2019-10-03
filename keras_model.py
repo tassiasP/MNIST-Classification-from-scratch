@@ -58,4 +58,4 @@ print(y_test[3])
 print(model.predict(x_test)[3])
 print(model.predict_classes(x_test)[3])
 
-#print(model.evaluate(x_test, y_test))
+print(model.evaluate(x_test, y_test))
